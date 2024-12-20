@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
 
 
-    <head>
-        <meta charset="utf-8">
-        <link href="base.css" rel="stylesheet">
-        <link href="styles.css" rel="stylesheet">
-    </head>
-  <body>
 
-  </body>
-</html>
+    main {  display:flex; 
+        flex-direction:row;
+        flex:auto;
+        }
+    body {  display:flex;
+        flex-direction:column;}
+    
+    article {flex: 2; overflow-y: auto;}
+      
+    aside {flex: 2;overflow-y: auto;
+    }
+
